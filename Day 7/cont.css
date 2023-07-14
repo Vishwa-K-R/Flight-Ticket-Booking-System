@@ -1,0 +1,52 @@
+.divpara{
+    font-size: 16px;
+    color: #4d4d4d;
+    align-items: center;
+}
+.divbox {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+    z-index: 1;
+}
+.innerWrap {
+    width: 1200px;
+    margin-left: 20rem;
+    padding: 0 15px;
+}
+.mfflop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divimg{
+    width: 60%;
+    height: 50%;
+}
+.divttl{
+    margin-top: 2rem;
+}
+.divpara{
+    margin-top: 2rem;
+}
+.toprflcont {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px 0;
+    justify-content: flex-start;
+}
+.hdrtxt {
+    font-size: 22px;
+    font-weight: 700;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: auto; */
+}
